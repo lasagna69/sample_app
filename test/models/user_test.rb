@@ -4,7 +4,6 @@ class UserTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
-<<<<<<< HEAD
 
   def setup
   	@user = User.new(name: "Example User", email: "user@example.com")
@@ -18,6 +17,4 @@ class UserTest < ActiveSupport::TestCase
   	@user.email = "   "
   	assert_not @user.valid?
   end
-=======
->>>>>>> 107ee8d37c6c694c1eaed7f288998499b75a4317
 end
